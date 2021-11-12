@@ -1,6 +1,7 @@
 package com.github.xuchengen.rws.dao.model;
 
 import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
@@ -12,6 +13,7 @@ public class UserDO {
      */
     @Id
     @Column(name = "`id`")
+    @GeneratedValue(generator = "JDBC")
     private Long id;
 
     /**
