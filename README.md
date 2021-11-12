@@ -1,7 +1,6 @@
 # read-write-split
 基于ShardingShphere-JDBC读写分离的样版工程。通过该工程快速了解ShardingShphere-JDBC框架。
 
----
 ## 项目框架
 * Spring Boot
 * Mybatis 
@@ -92,7 +91,7 @@ docker run -itd \
  --collation-server=utf8mb4_unicode_ci
 ```
 
-### 配置MySQL slave节点
+### 配置MySQL Slave节点
 进入``$PWD/mysql_02/conf``目录，创建或修改``my.cnf``文件。
 ```bash
 vim /var/lib/docker/volumes/mysql_02/conf/my.cnf
